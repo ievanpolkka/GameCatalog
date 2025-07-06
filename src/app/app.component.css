@@ -1,0 +1,11 @@
+:host::before {
+  content: '';
+  position: fixed;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  background-image: url('https://static.vecteezy.com/system/resources/previews/014/724/816/non_2x/abstract-black-triangular-background-with-gold-lines-free-vector.jpg');
+  background-size: cover;
+  background-position: center 10vh;
+  background-repeat: no-repeat;
+  background-color: black;
+  z-index: -1;
+}
